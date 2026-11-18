@@ -692,8 +692,8 @@ function pantallaLanding() {
             <div class="hero-stat"><strong>50+</strong><span>productos con precio real</span></div>
             <div class="hero-stat"><strong>100%</strong><span>pensada para vos</span></div>
           </div>
-        </div>
-        <div class="hero-tarjetas">
+
+          <div class="hero-tarjetas">
           ${heroLocales.map(l => `
             <a class="fila" href="#/local/${escapar(l.id)}">
               <span class="icono ${tonoLocal(l)}">${visualLocal(l)}</span>
