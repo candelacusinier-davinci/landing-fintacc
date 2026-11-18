@@ -427,7 +427,7 @@ function barraPublica(variante = "default") {
   const esEvento = variante === "evento";
 
   const botonesEscritorio = esEvento
-    ? `<button class="btn btn-secundario btn-chico" onclick="window.modalFormulario('user')">Quiero mi cupón</button>
+    ? `<button class="btn btn-chico" onclick="window.modalFormulario('user')">Quiero mi cupón</button>
        <button class="btn btn-tinta btn-chico" onclick="window.modalFormulario('brand')">Sumar mi marca</button>`
     : `<button class="btn btn-secundario btn-chico" data-accion="ir-ingreso">Ingresar</button>
        <button class="btn btn-tinta btn-chico" data-accion="ir-registro">Crear cuenta</button>`;
@@ -518,7 +518,7 @@ function modalPreviewModulo(modulo) {
     </div>
     <div class="fila-botones">
       <button class="btn" style="flex:1" data-accion="ir-registro">Crear cuenta gratis</button>
-      <button class="btn btn-secundario" data-cerrar>Cerrar</button>
+      <button class="btn btn-tinta" data-cerrar>Cerrar</button>
     </div>
   `);
 }
@@ -685,7 +685,7 @@ function pantallaLanding() {
           <p class="bajada">Salir a comer o elegir qué llevar sin TACC tendría que ser un disfrute, no un interrogatorio. Llevate tu cupón del stand, descubrí lugares 100% seguros y sumá puntos en tus marcas favoritas.</p>
           <div class="fila-botones">
             <button class="btn btn-blanco" onclick="window.modalFormulario('user')">Quiero mi cupón</button>
-            <button class="btn btn-secundario" onclick="window.modalFormulario('brand')" style="color:#fff; box-shadow:inset 0 0 0 2px #fff;">Quiero sumar mi marca</button>
+            <button class="btn btn-secundario" onclick="window.modalFormulario('brand')">Quiero sumar mi marca</button>
           </div>
           <div class="hero-stats">
             <div class="hero-stat"><strong>30+</strong><span>locales 100% sin TACC</span></div>
