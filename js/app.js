@@ -719,10 +719,10 @@ function pantallaLanding() {
         <div class="dual-segmentacion">
           <div class="segmento-card usuario">
             <span class="etiqueta" style="background:rgba(255,255,255,.2); color:#fff;">Para vos · Gratis</span>
-            <h2>Tu próximo favorito<br>te espera con cupón</h2>
+            <h2>Tu próximo favorito<br>te espera con puntos</h2>
             <p>Dejá de preguntar dos veces en cada local. Encontrá espacios cuidados, guardá tus elegidos y convertí cada compra en más beneficios.</p>
             <ul>
-              <li>Un cupón de bienvenida del stand para darte un gusto hoy</li>
+              <li>Puntos de bienvenida del stand para darte un gusto hoy</li>
               <li>Mapa con más de 30 locales 100% sin TACC cerca tuyo</li>
               <li>Puntos que suman en cada compra y se canjean por QR</li>
             </ul>
