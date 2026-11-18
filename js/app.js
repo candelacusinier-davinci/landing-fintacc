@@ -518,7 +518,7 @@ function modalPreviewModulo(modulo) {
     </div>
     <div class="fila-botones">
       <button class="btn" style="flex:1" data-accion="ir-registro">Crear cuenta gratis</button>
-      <button class="btn btn-tinta" data-cerrar>Cerrar</button>
+      <button class="btn btn-secundario" data-cerrar>Cerrar</button>
     </div>
   `);
 }
@@ -682,7 +682,7 @@ function pantallaLanding() {
         <div>
           <span class="badge-stand">Nos vemos en el stand · Regalo de bienvenida</span>
           <h1 class="titular">Comé seguro,<br><span class="linea-2">sin vueltas.</span></h1>
-          <p class="bajada">Salir a comer o elegir qué llevar sin TACC tendría que ser un disfrute, no un interrogatorio. Llevate tus puntos del stand, descubrí lugares 100% seguros y sumá puntos en tus marcas favoritas.</p>
+          <p class="bajada">Salir a comer o elegir qué llevar sin TACC tendría que ser un disfrute, no un interrogatorio. Llevate tu cupón del stand, descubrí lugares 100% seguros y sumá puntos en tus marcas favoritas.</p>
           <div class="fila-botones">
             <button class="btn btn-blanco" onclick="window.modalFormulario('user')">Quiero mi cupón</button>
             <button class="btn btn-secundario" onclick="window.modalFormulario('brand')">Quiero sumar mi marca</button>
@@ -692,8 +692,8 @@ function pantallaLanding() {
             <div class="hero-stat"><strong>50+</strong><span>productos con precio real</span></div>
             <div class="hero-stat"><strong>100%</strong><span>pensada para vos</span></div>
           </div>
-
-          <div class="hero-tarjetas">
+        </div>
+        <div class="hero-tarjetas">
           ${heroLocales.map(l => `
             <a class="fila" href="#/local/${escapar(l.id)}">
               <span class="icono ${tonoLocal(l)}">${visualLocal(l)}</span>
